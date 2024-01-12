@@ -1,0 +1,210 @@
+@media only screen and (min-width:601px)and (max-width:1100px){
+    nav li{
+      display:none;
+    }
+    .rb-background-image{
+      /* background-image: url(images/background-tablet.jpg); */
+      background-image: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.1)),url(images/background-tablet.jpg);
+
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    .rb-buttons button{
+      padding: 1%;
+      width: 95px;
+      font-size:90%;
+      margin-top: 20%; 
+    }
+    .rb-menu-icon{
+          display: block;
+          height: 5%;
+          width: 8%;
+          margin-left: 1%;
+          margin-right:0px;
+          border: none;
+          background-color: transparent;
+        }
+      .rb-menu-icon img{
+          width: 100%;
+      }
+      .rb-show_menu{
+           padding-top: 10%;
+           padding-bottom: 1%;
+          color:white;
+          display: block;
+          width: 100vw;
+          height: 10vh;
+         font-size: 70%;
+          flex-direction: column;
+          justify-content: flex-start; 
+      }
+      .rb-show_menu .rb-header{
+           margin-top: 5%;
+          display:inline-block;
+          padding: 0em;
+          box-sizing: border-box;
+          font-size: 140%;
+      }
+      .rb-header img{
+        display: none;
+    }
+    
+    .rb-apply-now{
+      padding: 3%;
+      width: 60%;
+    }
+    
+    footer div{
+      float: left;
+      margin: 3% 1%;
+          width:25%;
+    }
+  .rb-links{
+    font-size:90%;
+  }
+    
+    .rb-contacts{
+    width:20%;
+          font-size:80%;
+    }
+    .rb-help{
+          width: 100%;
+      font-size:80%;
+    }
+    .rb-loremipsum{
+      width: 20%;
+          text-align:left;
+          font-size:90%;
+    }
+    #slogan{
+      font-size: 400%;
+      
+    }
+    .rb-trending{
+      font-size:120%;
+    }
+    
+    .rb-searchbar {
+      width: 60%;
+    }
+    .rb-searchbar:focus {
+      width: 80%;
+    }
+    .rb-searchbutton{
+      padding: 16px;
+      
+    }
+   
+    
+    .rb-jobs-container {
+      width: 50%;
+    }
+    .rb-job-listing {
+      width: 33.33%;
+    }
+    .rb-job-listing img {
+      width: 100%;
+    }
+    
+    .rb-page-number{
+      display: inline;
+    }
+    
+    .rb-enter{
+      width: 20%;
+      padding: 2%;
+    }
+    #selected{
+      background-color: #f6f5ee;
+      color:#325c3b;
+    }
+    .rb-email{
+      margin: 10% 0%;
+      width: 100%;
+      text-align: center;
+    }
+    .rb-email h2{
+      text-shadow: 2px 2px 5px grey;
+      font-style: italic;
+      margin: 2%;
+    }
+    .rb-email input{
+      width: 30%;
+      padding:1%;
+      transition: width 0.7s ease-in-out;
+    }
+    .rb-email input:focus{
+      width: 50%;
+    }
+    
+    .rb-email button{
+      width: 6%;
+      height: 40px;
+      
+    }
+    .rb-aboutus-stories{
+      margin-top: 300px;
+  }
+  .rb-main-container{
+      margin-top: 10%;
+      width: 80%;
+    }
+  .rb-users-data{
+      width: 80%;
+    }
+  .rb-enter-register{
+      width: 35%;
+  }
+  .rb-register-container, .rb-login-container, .rb-forgotpassword-container, contactus-container{
+    /* background-image: url("images/background-tablet.jpg"); */
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)),url(images/background-tablet.jpg);
+    }
+
+    .rb-job-categories, .rb-job-locations{
+      padding: 5%;
+      align-items: center;
+      width: 25%;
+   } 
+   .rb-job-categories h2{
+      font-size: 150%;
+      width: 100%;
+    }
+   .rb-job-locations h2{
+      font-size: 150%;
+      width: 100%;
+   } 
+    
+    .rb-job-categories ul{
+      width: 100%;
+      font-size: 90%;
+    }
+    .rb-job-locations ul{
+      width: 100%;
+      font-size: 90%;
+    }
+    .rb-requirements h4{
+      font-size: 150%;
+    }
+    .rb-requirements p{
+      font-size: 95%;
+      line-height: 1.2em;
+      width: 100%;
+    }
+    .rb-figure-and-paragraph{
+      margin-bottom: 15%;
+    }
+    .rb-aboutus-stories{
+      margin-top: 100px;
+    }
+ /* .rb-story{
+  display: inline;
+  height: 200px;
+  position: absolute;
+ }
+ .rb-aboutus-stories{
+  position: relative;
+  height: 1000px;
+ } */
+  }
+  
